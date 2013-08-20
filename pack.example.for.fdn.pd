@@ -1,0 +1,20 @@
+#N canvas 800 0 784 802 10;
+#X floatatom 200 68 5 0 0 0 - - -;
+#X floatatom 112 107 5 0 0 0 - - -;
+#X obj 151 303 print;
+#X obj 146 79 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 169 168 pack f f f;
+#X floatatom 322 43 5 0 0 0 - - -;
+#X obj 264 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 173 240 linear \$1 \$2 \$3;
+#X connect 0 0 3 0;
+#X connect 0 0 4 1;
+#X connect 1 0 4 0;
+#X connect 3 0 1 0;
+#X connect 4 0 7 0;
+#X connect 5 0 6 0;
+#X connect 5 0 4 2;
+#X connect 6 0 0 0;
+#X connect 7 0 2 0;
